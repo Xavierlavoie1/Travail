@@ -700,6 +700,13 @@ namespace CaclulFinancementApp.ViewModel
             CheckForUpdates();
         }
 
+
+
+
+
+
+
+
         private bool UpdateCommand_CanExecute(object param)
         {
             return true;

@@ -33,6 +33,17 @@ namespace CaclulFinancementApp.ViewModel
             }
         }
 
+
+
+
+
+
+
+
+
+
+
+
         private bool IsNewerVersionAvailable(string latestVersion)
         {
             var currentVersion = GetCurrentVersion();
