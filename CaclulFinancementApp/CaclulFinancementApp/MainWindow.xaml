@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800"
         Closing="Window_Closing">
 
-    <Grid >
+    <Grid Background="Gray">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"></RowDefinition>
             <RowDefinition Height="auto"></RowDefinition>
@@ -32,7 +32,7 @@
             <Button Height="35" Width="120" Background="#6ec468" >Ajouter client</Button>
             <Button Height="35" Width="120" IsEnabled="{Binding boutonModifierState}"  Grid.Column="1" >Modifier client</Button>
             <Button Height="35" Width="120" Grid.Column="2" Command="{Binding SupprimerClient}" IsEnabled="{Binding boutonSupprimerState}"  Background="#fa5f5f">Retirer client</Button>
-            <Button Grid.Column="3" Margin="25,5" Padding="10" Command="{Binding UpdateCommand}" Background="Yellow">Verifier les mise a jour de l'application</Button>
+            <Button Grid.Column="3" Margin="25,5" Padding="10" Command="{Binding UpdateCommand}" Background="Yellow">Check Updates</Button>
         </Grid>
     </Grid>
 </Window>
